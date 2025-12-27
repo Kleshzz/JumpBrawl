@@ -10,7 +10,7 @@ class Helpers:
         self.generated_tokens = set()
 
     def randomStringDigits(self):
-        """Генерирует уникальный случайный токен из букв и цифр длиной 40 символов"""
+        # Генерирует уникальный случайный токен из букв и цифр длиной 40 символов
         lettersAndDigits = string.ascii_letters + string.digits
         while True:
             token = ''.join(random.choice(lettersAndDigits) for _ in range(40))
@@ -19,9 +19,9 @@ class Helpers:
                 return token
 
     def randomID(self):
-        """Генерирует случайный 9-значный ID"""
+        # Генерирует случайный 9-значный ID
         return int(''.join([str(random.randint(0, 9)) for _ in range(9)]))
 
     def randomClubID(self):
-        """Генерирует случайный 9-значный ID для клуба"""
+        # Генерирует случайный 9-значный ID для клуба
         return int(''.join([str(random.randint(0, 9)) for _ in range(9)]))
