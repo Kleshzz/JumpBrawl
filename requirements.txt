@@ -1,0 +1,13 @@
+colorama
+tinydb
+pyfiglet
+termcolor
+telebot
+requests
+psutil
+days
+scapy
+ipwhois
+pyrogram
+tgcrypto
+aiohttp
